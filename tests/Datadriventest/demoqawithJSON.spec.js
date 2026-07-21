@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-import loginData from "../testdata/login.json";
+import loginData from "../../testdata/login.json";
 
 
 test('Verify demoqa Login with JSON', async ({ page }) => {

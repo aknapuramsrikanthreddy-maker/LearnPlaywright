@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 
-import { getExcelData } from '../utils/ExcelUtility.js';
+import { getExcelData } from '../../utils/ExcelUtility.js';
 
 
 test('Verify demoqa Login with EXCEL', async ({ page }) => {
